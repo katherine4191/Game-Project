@@ -21,7 +21,8 @@
 #include <wingdi.h>
 
 #include <iostream> // wstring
+#include <map>
 
-
+using namespace std;
 #include "global.h"
 #endif //PCH_H
