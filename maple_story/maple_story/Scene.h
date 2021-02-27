@@ -1,7 +1,7 @@
 #pragma once
 
-//class CLayer;
-//class CObj;
+class CLayer;
+class CObj;
 
 typedef struct _tagLayerInfo
 {
