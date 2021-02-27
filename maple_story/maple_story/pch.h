@@ -22,6 +22,7 @@
 
 #include <iostream> // wstring
 #include <map>
+#include <list>
 
 using namespace std;
 #include "global.h"

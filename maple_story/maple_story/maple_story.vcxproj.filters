@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\Scene">
       <UniqueIdentifier>{143aeb47-8030-4fba-9339-13e81140a63b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{22f7a9ad-a4c0-498c-9e23-f8d85960328a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Layer">
+      <UniqueIdentifier>{b00434cf-df7d-4b2c-b29c-eccaf2cebd0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -57,6 +63,15 @@
     <ClInclude Include="Scene.h">
       <Filter>소스 파일\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -73,6 +88,12 @@
     </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>소스 파일\Layer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
