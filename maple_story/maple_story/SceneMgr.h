@@ -1,6 +1,6 @@
 #pragma once
 class CScene;
-//class CObject;
+class CObj;
 
 class CSceneMgr
 {
@@ -18,9 +18,9 @@ public:
 
 	CScene* GetCurScene() { return m_pCurScene; }
 	void ChangeScene(SCENE_TYPE _eNextScene);
-	//void AddObject(const wstring& _strLayerName, CObj* _pObj);
-	//CObj* FindObject(const wstring& _strTag);
-	//CObj* FindObject(const wstring& _strLayerName, const wstring& _strTag);
+	void AddObject(const wstring& _strLayerName, CObj* _pObj);
+	CObj* FindObject(const wstring& _strTag);
+	CObj* FindObject(const wstring& _strLayerName, const wstring& _strTag);
 
 private:
 	CSceneMgr();
