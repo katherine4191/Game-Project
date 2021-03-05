@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Scene\1. TestScene">
       <UniqueIdentifier>{08fff22e-db83-409c-896f-cac5f5b98da1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Object\01.Player">
+      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -81,6 +84,9 @@
     <ClInclude Include="TestScene.h">
       <Filter>소스 파일\Scene\1. TestScene</Filter>
     </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object\01.Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -106,6 +112,9 @@
     </ClCompile>
     <ClCompile Include="TestScene.cpp">
       <Filter>소스 파일\Scene\1. TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object\01.Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
