@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "Core.h"
 
+#include "SceneMgr.h"
+
 CCore::CCore()
 	: m_hdc(NULL), m_memDC(NULL)
 {
@@ -24,6 +26,8 @@ void CCore::init()
 	HBITMAP bitmap = CreateCompatibleBitmap(m_hdc, WINSIZE_X, WINSIZE_Y);
 	HBITMAP oldBit = (HBITMAP)SelectObject(m_memDC, bitmap); // 도화지 setting
 	DeleteObject(oldBit);
+
+	CSceneMgr::GetInst()->init();
 }
 
 int CCore::progress()
@@ -37,6 +41,7 @@ int CCore::progress()
 
 int CCore::update()
 {
+	CSceneMgr::GetInst()->update();
 	return 0;
 }
 
@@ -44,5 +49,8 @@ void CCore::render()
 {
 	RECT rect;	GetClientRect(g_hWnd, &rect); // window의 너비와 높이를 구함
 	Rectangle(m_memDC, 0, 0, WINSIZE_X + 1, WINSIZE_Y + 1); // 윈도우 창 화면이 하얗게 하기 위해 Rectangle을 그림
+
+	CSceneMgr::GetInst()->render(m_memDC);
+
 	BitBlt(m_hdc, 0, 0, rect.right, rect.bottom, m_memDC, 0, 0, SRCCOPY); // 이미지를 화면에 출력하는 함수
 }
