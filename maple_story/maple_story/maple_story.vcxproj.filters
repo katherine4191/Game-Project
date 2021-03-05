@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Layer">
       <UniqueIdentifier>{b00434cf-df7d-4b2c-b29c-eccaf2cebd0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Scene\1. TestScene">
+      <UniqueIdentifier>{08fff22e-db83-409c-896f-cac5f5b98da1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -75,6 +78,9 @@
     <ClInclude Include="struct.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>소스 파일\Scene\1. TestScene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -97,6 +103,9 @@
     </ClCompile>
     <ClCompile Include="Layer.cpp">
       <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>소스 파일\Scene\1. TestScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
