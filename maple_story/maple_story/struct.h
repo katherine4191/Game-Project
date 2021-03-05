@@ -15,3 +15,18 @@ typedef struct _tagPoint
 		: fX(_fX), fY(_fY)
 	{}
 } tPoint;
+
+typedef unsigned short US;
+
+typedef struct _tagStat
+{
+	US STR; // Èû
+	US DEX; // ¹ÎÃ¸
+	US LUK; // ¿î
+	US INT; // Áö´É
+	_tagStat()
+		: STR(0),
+		DEX(0),
+		LUK(0),
+		INT(0) {}
+}tStat;
