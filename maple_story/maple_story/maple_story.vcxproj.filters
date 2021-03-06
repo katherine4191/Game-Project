@@ -22,20 +22,41 @@
     <Filter Include="소스 파일\02. Manager\01. SceneMgr">
       <UniqueIdentifier>{38361a70-fd32-4ecc-bb86-d0d7416cdea0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Scene">
-      <UniqueIdentifier>{143aeb47-8030-4fba-9339-13e81140a63b}</UniqueIdentifier>
+    <Filter Include="소스 파일\02. Manager\03. KeyMgr">
+      <UniqueIdentifier>{03d3d104-9666-4a73-b39a-a70ae06022cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Object">
+    <Filter Include="소스 파일\02. Manager\02. TimeMgr">
+      <UniqueIdentifier>{7e20701d-82c4-4163-b6c6-bfc318efae71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\04. PathMgr">
+      <UniqueIdentifier>{96c21d52-704d-4def-810c-f63469a6e11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\05. ResMgr">
+      <UniqueIdentifier>{1d2f9a8c-32dd-4b46-8eeb-bb4ed5451fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Object">
       <UniqueIdentifier>{22f7a9ad-a4c0-498c-9e23-f8d85960328a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Layer">
-      <UniqueIdentifier>{b00434cf-df7d-4b2c-b29c-eccaf2cebd0a}</UniqueIdentifier>
+    <Filter Include="소스 파일\03. Object\01.Player">
+      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Scene\1. TestScene">
+    <Filter Include="소스 파일\03. Object\01. CollisionObj">
+      <UniqueIdentifier>{5efce7b5-8353-4dc7-95c2-820dd8c5f8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene&amp;Layer">
+      <UniqueIdentifier>{143aeb47-8030-4fba-9339-13e81140a63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene&amp;Layer\01. Scene">
+      <UniqueIdentifier>{56721b1f-4744-421c-8328-b5aca697df7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene">
       <UniqueIdentifier>{08fff22e-db83-409c-896f-cac5f5b98da1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Object\01.Player">
-      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
+    <Filter Include="소스 파일\04. Scene&amp;Layer\02. Layer">
+      <UniqueIdentifier>{8137830e-6e58-4669-ae5b-7fedf9b75d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Resource">
+      <UniqueIdentifier>{40bca8a4-347e-4c6d-b0ba-8713f5ae65d3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -66,14 +87,8 @@
     <ClInclude Include="SceneMgr.h">
       <Filter>소스 파일\02. Manager\01. SceneMgr</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>소스 파일\Scene</Filter>
-    </ClInclude>
     <ClInclude Include="Obj.h">
-      <Filter>소스 파일\Object</Filter>
-    </ClInclude>
-    <ClInclude Include="Layer.h">
-      <Filter>소스 파일\Layer</Filter>
+      <Filter>소스 파일\03. Object</Filter>
     </ClInclude>
     <ClInclude Include="function.h">
       <Filter>헤더 파일</Filter>
@@ -82,10 +97,31 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="TestScene.h">
-      <Filter>소스 파일\Scene\1. TestScene</Filter>
+      <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>소스 파일\Object\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\02. Manager\02. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>소스 파일\02. Manager\04. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>소스 파일\02. Manager\05. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\04. Scene&amp;Layer\01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>소스 파일\04. Scene&amp;Layer\02. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\05. Resource</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -101,20 +137,35 @@
     <ClCompile Include="SceneMgr.cpp">
       <Filter>소스 파일\02. Manager\01. SceneMgr</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>소스 파일\Scene</Filter>
-    </ClCompile>
     <ClCompile Include="Obj.cpp">
-      <Filter>소스 파일\Object</Filter>
-    </ClCompile>
-    <ClCompile Include="Layer.cpp">
-      <Filter>소스 파일\Layer</Filter>
+      <Filter>소스 파일\03. Object</Filter>
     </ClCompile>
     <ClCompile Include="TestScene.cpp">
-      <Filter>소스 파일\Scene\1. TestScene</Filter>
+      <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\Object\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\02. Manager\02. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>소스 파일\02. Manager\04. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>소스 파일\02. Manager\05. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\04. Scene&amp;Layer\01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>소스 파일\04. Scene&amp;Layer\02. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\05. Resource</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

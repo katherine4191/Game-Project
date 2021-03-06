@@ -143,9 +143,12 @@
   <ItemGroup>
     <ClInclude Include="Core.h" />
     <ClInclude Include="function.h" />
+    <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="Layer.h" />
     <ClInclude Include="Obj.h" />
+    <ClInclude Include="PathMgr.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="ResMgr.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="define.h" />
@@ -157,17 +160,24 @@
     <ClInclude Include="struct.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TestScene.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TimeMgr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="Layer.cpp" />
     <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="PathMgr.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ResMgr.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="maple_story.rc" />
