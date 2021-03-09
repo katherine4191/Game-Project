@@ -37,9 +37,6 @@
     <Filter Include="소스 파일\03. Object">
       <UniqueIdentifier>{22f7a9ad-a4c0-498c-9e23-f8d85960328a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\03. Object\01.Player">
-      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\03. Object\01. CollisionObj">
       <UniqueIdentifier>{5efce7b5-8353-4dc7-95c2-820dd8c5f8b1}</UniqueIdentifier>
     </Filter>
@@ -57,6 +54,15 @@
     </Filter>
     <Filter Include="소스 파일\05. Resource">
       <UniqueIdentifier>{40bca8a4-347e-4c6d-b0ba-8713f5ae65d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\06. Camera">
+      <UniqueIdentifier>{be43baec-984d-488b-9b79-7b1fca9ff7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Object\01. CollisionObj\01.Player">
+      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Object\UI&amp;Border">
+      <UniqueIdentifier>{3a579f43-aaf5-46e3-a164-e62f08968f0f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +106,7 @@
       <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>소스 파일\03. Object\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01. CollisionObj\01.Player</Filter>
     </ClInclude>
     <ClInclude Include="KeyMgr.h">
       <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
@@ -123,6 +129,15 @@
     <ClInclude Include="Texture.h">
       <Filter>소스 파일\05. Resource</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\02. Manager\06. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -144,7 +159,7 @@
       <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\03. Object\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01. CollisionObj\01.Player</Filter>
     </ClCompile>
     <ClCompile Include="KeyMgr.cpp">
       <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
@@ -166,6 +181,15 @@
     </ClCompile>
     <ClCompile Include="Texture.cpp">
       <Filter>소스 파일\05. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\02. Manager\06. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
