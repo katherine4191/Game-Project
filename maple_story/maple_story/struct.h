@@ -16,6 +16,13 @@ typedef struct _tagPoint
 	{}
 } tPoint;
 
+typedef struct _tagUIState
+{
+	bool bMouseOn;
+	bool bLBtnClicked;
+	bool bRBtnClicked;
+} tUIState;
+
 typedef unsigned short US;
 
 typedef struct _tagStat

@@ -12,6 +12,9 @@
 								return &mgr; \
 							}
 
+
+#define GET_KEY(k,s) CKeyMgr::GetInst()->GetKeyState(k, s)
+
 #define SAFE_DELETE(p) if(NULL != p) delete p; p = NULL;
 #define SAFE_DELETE_ARR(p) if(NULL != p) delete[] p; p = NULL;
 
