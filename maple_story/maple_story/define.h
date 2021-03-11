@@ -44,3 +44,10 @@ enum class PLAYER_MOTION_TYPE
 	//ATTACK1_FINISH_R,
 	END,
 };
+
+enum class COL_TYPE // 충돌체의 타입
+{
+	RECTANGLE, // 사각형
+	CIRCLE,    // 원
+	NONE,
+};
