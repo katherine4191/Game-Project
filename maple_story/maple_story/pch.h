@@ -20,9 +20,12 @@
 
 #include <wingdi.h>
 
+#include <functional>
+
 #include <iostream> // wstring
 #include <map>
 #include <list>
+#include <vector>
 
 using namespace std;
 #include "global.h"

@@ -64,6 +64,12 @@
     <Filter Include="소스 파일\03. Object\UI&amp;Border">
       <UniqueIdentifier>{3a579f43-aaf5-46e3-a164-e62f08968f0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\07. Collision">
+      <UniqueIdentifier>{42393ffa-0ccc-448a-b637-80819065e9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07. Collision\AttackBox">
+      <UniqueIdentifier>{5045ab18-cfd2-44f4-aec8-7ff3ad00c002}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -138,6 +144,15 @@
     <ClInclude Include="Border.h">
       <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
     </ClInclude>
+    <ClInclude Include="CollisionObj.h">
+      <Filter>소스 파일\03. Object\01. CollisionObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBox.h">
+      <Filter>소스 파일\07. Collision\AttackBox</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -190,6 +205,15 @@
     </ClCompile>
     <ClCompile Include="Border.cpp">
       <Filter>소스 파일\03. Object\UI&amp;Border</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObj.cpp">
+      <Filter>소스 파일\03. Object\01. CollisionObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBox.cpp">
+      <Filter>소스 파일\07. Collision\AttackBox</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

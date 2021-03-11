@@ -141,8 +141,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AttackBox.h" />
     <ClInclude Include="Border.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionObj.h" />
     <ClInclude Include="Core.h" />
     <ClInclude Include="function.h" />
     <ClInclude Include="KeyMgr.h" />
@@ -167,8 +170,11 @@
     <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AttackBox.cpp" />
     <ClCompile Include="Border.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionObj.cpp" />
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="Layer.cpp" />

@@ -25,6 +25,26 @@ typedef struct _tagUIState
 
 typedef unsigned short US;
 
+typedef struct _tagInfo
+{
+	//RACE_TYPE eType;
+	US CurHP;
+	US MaxHP;
+	US CurMP;
+	US MaxMP;
+	US Level;
+	US Attack;
+	US Defence;
+	unsigned int CurExp;
+	unsigned int MaxExp;
+	_tagInfo()
+		: CurHP(0), MaxHP(0), CurMP(0), MaxMP(0), Level(0), Attack(0), Defence(0), CurExp(0), MaxExp(0) {}
+
+	_tagInfo(US _CurHP, US _MaxHP, US _CurMP, US _MaxMP, US _Level, US _Attack, US _Defence, unsigned int _CurExp, unsigned int MaxExp)
+		: CurHP(_CurHP), MaxHP(_MaxHP), CurMP(_CurMP), MaxMP(_MaxMP), Level(_Level), Attack(_Attack), Defence(_Defence),
+		CurExp(_CurExp), MaxExp(MaxExp) {}
+}tInfo;
+
 typedef struct _tagStat
 {
 	US STR; // Èû
