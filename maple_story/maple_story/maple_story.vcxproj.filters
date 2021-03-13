@@ -58,9 +58,6 @@
     <Filter Include="소스 파일\02. Manager\06. Camera">
       <UniqueIdentifier>{be43baec-984d-488b-9b79-7b1fca9ff7e8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\03. Object\01. CollisionObj\01.Player">
-      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\03. Object\UI&amp;Border">
       <UniqueIdentifier>{3a579f43-aaf5-46e3-a164-e62f08968f0f}</UniqueIdentifier>
     </Filter>
@@ -69,6 +66,12 @@
     </Filter>
     <Filter Include="소스 파일\07. Collision\AttackBox">
       <UniqueIdentifier>{5045ab18-cfd2-44f4-aec8-7ff3ad00c002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Object\01. CollisionObj\CollisionGravityObj">
+      <UniqueIdentifier>{5df0ac61-1b3f-4033-99a0-7d8a381fc0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\01.Player">
+      <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -112,7 +115,7 @@
       <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>소스 파일\03. Object\01. CollisionObj\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\01.Player</Filter>
     </ClInclude>
     <ClInclude Include="KeyMgr.h">
       <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
@@ -153,6 +156,9 @@
     <ClInclude Include="AttackBox.h">
       <Filter>소스 파일\07. Collision\AttackBox</Filter>
     </ClInclude>
+    <ClInclude Include="CollisionGravityObj.h">
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -174,7 +180,7 @@
       <Filter>소스 파일\04. Scene&amp;Layer\01. Scene\1. TestScene</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\03. Object\01. CollisionObj\01.Player</Filter>
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\01.Player</Filter>
     </ClCompile>
     <ClCompile Include="KeyMgr.cpp">
       <Filter>소스 파일\02. Manager\03. KeyMgr</Filter>
@@ -214,6 +220,9 @@
     </ClCompile>
     <ClCompile Include="AttackBox.cpp">
       <Filter>소스 파일\07. Collision\AttackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionGravityObj.cpp">
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
