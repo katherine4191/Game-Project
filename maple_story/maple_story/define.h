@@ -18,7 +18,6 @@
 #define SAFE_DELETE(p) if(NULL != p) delete p; p = NULL;
 #define SAFE_DELETE_ARR(p) if(NULL != p) delete[] p; p = NULL;
 
-#define PLAYER_SIZE  70
 #define MAX_STR 255
 
 enum class SCENE_TYPE
