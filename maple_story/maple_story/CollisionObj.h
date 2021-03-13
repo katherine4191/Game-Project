@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Obj.h"
-#include "Collision.h" 
+#include "Collision.h"  // Collision* 아닌 Collision을 가지므로 헤더 추가
 #include "AttackBox.h"
 
 
@@ -35,7 +35,7 @@ public:
 	virtual void OnCollisionExit() {};
 
 public:
-	//CCollisionObj(); //(wstring _strObjTag, tPoint _ptPos)
+	//CCollisionObj(); 
 	CCollisionObj(wstring _strObjTag, tPoint _ptPos);
 	virtual ~CCollisionObj();
 };
