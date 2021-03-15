@@ -1,8 +1,11 @@
 #pragma once
-class CPlayer
+#include "CollisionGravityObj.h"
+
+class CPlayer :
+	public CCollisionGravityObj
 {
 private:
-	tStat					m_tStat; // STR(Èû),DEX(¹ÎÃ¸),LUK(¿î),INT(Áö´É)
+	tStat					m_tStat; // STR(Èû), DEX(¹ÎÃ¸), LUK(¿î), INT(Áö´É)
 	int						m_iJumpStack;
 	int						m_iMaxJumpStack;
 
@@ -19,7 +22,7 @@ public:
 	const tStat& GetStat() { return m_tStat; }
 	void SetStat(const tStat& _tStat) { m_tStat = _tStat; }
 	void AfterLand(void);
-	//const CAttackBox& GetAttackBox() { return m_AttackCollision; } 
+	const CAttackBox& GetAttackBox() { return m_AttackCollision; } 
 
 private:
 	void ControlMotionRender();

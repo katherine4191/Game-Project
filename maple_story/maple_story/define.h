@@ -12,7 +12,10 @@
 								return &mgr; \
 							}
 
+#define GRAVITY_ACCELERATE 2000
+#define GRAVITY_JUMP 600 
 
+#define DT CTimeMgr::GetInst()->DeltaTime()
 #define GET_KEY(k,s) CKeyMgr::GetInst()->GetKeyState(k, s)
 
 #define SAFE_DELETE(p) if(NULL != p) delete p; p = NULL;
