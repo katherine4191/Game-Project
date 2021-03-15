@@ -20,3 +20,5 @@ void Safe_Delete_list(list<T1>& _list)
 	}
 	_list.clear();
 }
+
+void LoadWString(wchar_t* _pStr, FILE* _pFile);
