@@ -23,6 +23,27 @@ typedef struct _tagUIState
 	bool bRBtnClicked;
 } tUIState;
 
+typedef struct _tagAnimFrame
+{
+	POINT m_ptStartPos;
+	POINT m_ptSize;
+	POINT m_ptOffset;
+	float m_fTime;
+
+	_tagAnimFrame()
+		: m_ptStartPos(POINT{ 0, 0 })
+		, m_ptSize(POINT{ 0, 0 })
+		, m_ptOffset(POINT{ 0, 0 })
+		, m_fTime(0.f)
+	{}
+	_tagAnimFrame(POINT _ptStartPos, POINT _ptSize, POINT _ptOffset, float _fTime)
+		: m_ptStartPos(_ptStartPos)
+		, m_ptSize(_ptSize)
+		, m_ptOffset(_ptOffset)
+		, m_fTime(_fTime)
+	{}
+} tAnimFrame;
+
 typedef unsigned short US;
 
 typedef struct _tagInfo
