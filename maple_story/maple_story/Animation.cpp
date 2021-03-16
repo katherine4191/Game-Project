@@ -3,11 +3,12 @@
 
 #include "TimeMgr.h"
 #include "Texture.h"
-
+#include "Animator.h"
 #include "Obj.h"
 
 CAnimation::CAnimation()
-	: m_pTex(NULL)
+	: m_pAnimator(NULL)
+	, m_pTex(NULL)
 	, m_wMaxFrame(0)
 	, m_wCurFrame(0)
 	, m_pFrame(NULL)
@@ -59,8 +60,17 @@ int CAnimation::update()
 
 void CAnimation::render(HDC _dc)
 {
+	CObj* pOwnerObj = m_pAnimator->GetOwner();
+	tPoint ptOwnerPos = pOwnerObj->GetPos();
 
-
+	TransparentBlt(_dc
+		, ptOwnerPos.fX - m_pFrame[m_wCurFrame].m_ptSize.x / 2 + m_pFrame[m_wCurFrame].m_ptOffset.x
+		, ptOwnerPos.fY - m_pFrame[m_wCurFrame].m_ptSize.y / 2 + m_pFrame[m_wCurFrame].m_ptOffset.y
+		, m_pFrame[m_wCurFrame].m_ptSize.x, m_pFrame[m_wCurFrame].m_ptSize.y
+		, m_pTex->GetDC()
+		, m_pFrame[m_wCurFrame].m_ptStartPos.x, m_pFrame[m_wCurFrame].m_ptStartPos.y
+		, m_pFrame[m_wCurFrame].m_ptSize.x, m_pFrame[m_wCurFrame].m_ptSize.y
+		, RGB(255, 0, 255));
 }
 
 void CAnimation::SetMaxFrame(int _iMaxFrame)

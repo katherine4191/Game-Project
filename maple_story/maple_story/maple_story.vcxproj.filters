@@ -73,6 +73,12 @@
     <Filter Include="소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\01.Player">
       <UniqueIdentifier>{3d5dce49-09fb-448e-a5f3-a19a33c9abdf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\06. Animator">
+      <UniqueIdentifier>{0794e44a-85f5-4419-9182-fdf45acbc328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Animator\Animation">
+      <UniqueIdentifier>{9bccc3e1-f347-4f75-b5d5-fbe74a6a364d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -159,6 +165,12 @@
     <ClInclude Include="CollisionGravityObj.h">
       <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj</Filter>
     </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>소스 파일\06. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>소스 파일\06. Animator\Animation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -223,6 +235,15 @@
     </ClCompile>
     <ClCompile Include="CollisionGravityObj.cpp">
       <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>소스 파일\06. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\06. Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
