@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "Obj.h"
 
+#include "animator.h"
+
 CObj::CObj()
 {
 }
@@ -14,4 +16,11 @@ CObj::CObj(wstring _strObjTag, tPoint _ptPos)
 
 CObj::~CObj()
 {
+}
+
+CAnimator* CObj::GetAnimator()
+{
+	CAnimator* pAnimator = new CAnimator;
+	pAnimator->SetOwner(this);
+	return pAnimator;
 }

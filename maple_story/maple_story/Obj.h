@@ -1,4 +1,9 @@
 #pragma once
+#include "timemgr.h"
+#include "camera.h"
+
+class CAnimator;
+
 class CObj
 {
 protected:
@@ -16,9 +21,9 @@ public:
 	void SetTag(const wstring& _strTag) { m_strObjTag = _strTag; }
 	const wstring& GetTag() { return m_strObjTag; }
 
-	//CAnimator* GetAnimator();
+	CAnimator* GetAnimator();
 
-	//virtual bool IsCollision() { return false; }
+	virtual bool IsCollision() { return false; }
 
 public:
 	CObj();
