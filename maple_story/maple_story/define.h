@@ -22,6 +22,7 @@
 #define SAFE_DELETE_ARR(p) if(NULL != p) delete[] p; p = NULL;
 
 #define PLAYER_SIZE  70
+#define MONSTER_SIZE 70
 #define MAX_STR 255
 
 enum class SCENE_TYPE
@@ -46,6 +47,14 @@ enum class PLAYER_MOTION_TYPE
 	ATTACK1_RIGHT,
 	//ATTACK1_FINISH_L,
 	//ATTACK1_FINISH_R,
+	END,
+};
+
+enum class MONSTER_MOTION_TYPE
+{
+	STAND_LEFT,
+	ATTACKED_LEFT,
+
 	END,
 };
 

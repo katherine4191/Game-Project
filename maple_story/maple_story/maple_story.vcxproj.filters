@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\06. Animator\Animation">
       <UniqueIdentifier>{9bccc3e1-f347-4f75-b5d5-fbe74a6a364d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\02. Monster">
+      <UniqueIdentifier>{75055f4d-4a07-45ab-9c59-00efae00a856}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -171,6 +174,9 @@
     <ClInclude Include="Animation.h">
       <Filter>소스 파일\06. Animator\Animation</Filter>
     </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\02. Monster</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -244,6 +250,9 @@
     </ClCompile>
     <ClCompile Include="function.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\03. Object\01. CollisionObj\CollisionGravityObj\02. Monster</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

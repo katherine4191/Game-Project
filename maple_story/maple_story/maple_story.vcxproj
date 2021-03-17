@@ -153,6 +153,7 @@
     <ClInclude Include="function.h" />
     <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="Layer.h" />
+    <ClInclude Include="Monster.h" />
     <ClInclude Include="Obj.h" />
     <ClInclude Include="PathMgr.h" />
     <ClInclude Include="Player.h" />
@@ -185,6 +186,7 @@
     <ClCompile Include="function.cpp" />
     <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Obj.cpp" />
     <ClCompile Include="PathMgr.cpp" />
     <ClCompile Include="Player.cpp" />
